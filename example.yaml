@@ -8,6 +8,7 @@ esphome:
 
 external_components:
   - source: github://landonr/lilygo-tdisplays3-esphome
+    ref: <branch> #Needed for CI
     components: [tdisplays3]
 
 esp32:
